@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <FrameLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav" android:layout_width="match_parent" android:layout_height="wrap_content"
+            app:menu="@menu/bottom_nav" xmlns:app="http://schemas.android.com/apk/res-auto"/>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabSos" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_marginEnd="16dp" android:layout_marginBottom="96dp"
+        android:text="SOS"/>
+</FrameLayout>

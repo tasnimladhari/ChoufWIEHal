@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp" android:gravity="center_horizontal">
+    <Spinner android:id="@+id/spSubject" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/timerText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="25:00" android:textSize="52sp" android:textStyle="bold" android:textColor="@color/purple"/>
+    <Button android:id="@+id/btnStart" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start"/>
+</LinearLayout>

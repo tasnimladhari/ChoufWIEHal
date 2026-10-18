@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChoufWIE Hal</string>
+
+    <string name="crisis_text">What you are feeling matters, and you do not have to carry it alone.\n\nThis app is not a doctor and cannot keep you safe, but people can.\n\n• Talk to someone you trust right now: a friend, a parent, a teacher.\n• If you might act on thoughts of hurting yourself, or you are in danger, call your local emergency number now (in Tunisia: SAMU 190) or go to the nearest emergency room.\n• Stay with another person until the wave passes.\n\nYou deserve support, and the hardest moments do pass.</string>
+
+    <string name="grounding">Look around you and name:\n\n5 things you can SEE\n4 things you can TOUCH\n3 things you can HEAR\n2 things you can SMELL\n1 thing you can TASTE\n\nGo slowly. Feel your feet on the floor. You are here, and you are safe in this moment.</string>
+
+    <string-array name="quotes">
+        <item>You don’t have to finish everything today. You have to take one honest step.</item>
+        <item>Rest is part of the work, not a reward for it.</item>
+        <item>A bad grade is a result, not a verdict on who you are.</item>
+        <item>Compare yourself to yesterday’s you, not to someone’s highlight reel.</item>
+        <item>Slow progress is still progress.</item>
+        <item>A rejection means “not this door”, not “no door”.</item>
+        <item>Sleep is a study technique.</item>
+        <item>Asking for help is a skill, and a strong one.</item>
+        <item>You are more than your productivity.</item>
+        <item>Small and steady beats big and burned out.</item>
+    </string-array>
+
+    <string-array name="meme_captions">
+        <item>Me at 2 a.m. promising Jannet I’ll start revising “tomorrow”</item>
+        <item>Brain: 3 exams in 4 days. Also brain: let’s reorganise the desk.</item>
+        <item>Jannet looked at my exam week in the cards and said nothing. Just sighed.</item>
+        <item>Sending application #47 like a message in a bottle</item>
+        <item>After one 25-minute focus session: productivity legend</item>
+        <item>Water, stretch, breathe. The holy trinity.</item>
+        <item>When Jannet says “go to bed” and you finally listen</item>
+        <item>Choufli hal… because my planning skills certainly can’t</item>
+    </string-array>
+
+    <string-array name="jannet_greetings">
+        <item>Ahla! I see a good thing in the cards: you opened the app instead of doom-scrolling. Tap “Ask Jannet” for today’s forecast, habibti.</item>
+        <item>Jannet reads your data, not the stars… but tonight the stars say: drink water and sleep early. Ya3tik essa7a!</item>
+        <item>Marhbé bik! One small step today is worth more than ten perfect plans tomorrow. Let’s see your forecast.</item>
+        <item>I have a feeling about this week, and it involves a little less stress and a little more rest. Check your forecast!</item>
+    </string-array>
+
+    <string-array name="learn_titles">
+        <item>Stress vs burnout</item>
+        <item>Why sleep beats one more hour of study</item>
+        <item>The 4-4-6 breath</item>
+        <item>A rejection is data, not a verdict</item>
+        <item>Focus sessions without guilt</item>
+    </string-array>
+
+    <string-array name="learn_texts">
+        <item>Stress is feeling pushed too hard for a while. Burnout is what can follow when it never lets up: constant exhaustion, cynicism, and feeling you are not good enough. This app watches the early signals (sleep, mood, deadlines) so you can slow down before you hit the wall. It is a heuristic, not a medical test.</item>
+        <item>When you sleep, your brain files what you studied. Cutting sleep to cram usually costs more recall than it buys. Protecting 7 to 8 hours is one of the most effective things you can do for exams and for interviews.</item>
+        <item>Breathe in for 4 seconds, hold for 4, breathe out for 6. A longer exhale tells your body it is safe to calm down. Two minutes is enough to feel a difference. The SOS button guides you through it.</item>
+        <item>One rejection tells you about one company, one moment, one fit. Write down one thing you learned, then stop applying for today. Persistence works better when you protect your energy.</item>
+        <item>25 minutes on one thing, then 5 minutes off. Short sessions are easier to start and easier to repeat. If you only manage one, it still counts.</item>
+    </string-array>
+</resources>

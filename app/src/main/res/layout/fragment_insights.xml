@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Insights" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/purple"/>
+        <com.choufwie.hal.ui.GaugeView android:id="@+id/gauge" android:layout_width="240dp" android:layout_height="130dp" android:layout_gravity="center_horizontal" android:layout_marginTop="8dp"/>
+        <TextView android:id="@+id/levelText" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="What drives your score" android:textSize="17sp" android:textStyle="bold"/>
+        <LinearLayout android:id="@+id/components" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="7-day risk forecast" android:textSize="17sp" android:textStyle="bold"/>
+        <com.choufwie.hal.ui.BarChartView android:id="@+id/forecastChart" android:layout_width="match_parent" android:layout_height="170dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Stress trend (last check-ins)" android:textSize="17sp" android:textStyle="bold"/>
+        <com.choufwie.hal.ui.BarChartView android:id="@+id/trendChart" android:layout_width="match_parent" android:layout_height="170dp"/>
+        <Button android:id="@+id/btnWeekly" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="🔮 My week according to Jannet"/>
+        <TextView android:id="@+id/lastEntry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textSize="13sp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textSize="12sp" android:text="The score is a transparent heuristic to help you notice patterns. It is not a medical or clinical tool."/>
+        <View android:layout_width="match_parent" android:layout_height="72dp"/>
+    </LinearLayout>
+</ScrollView>

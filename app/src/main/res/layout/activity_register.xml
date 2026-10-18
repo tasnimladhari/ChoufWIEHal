@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <ImageView
+            android:id="@+id/imgJannet"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:contentDescription="ChoufWIE Hal app icon"
+            android:src="@drawable/choufwie_icon_transparent" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Create your account" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/purple"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_marginBottom="16dp" android:text="Stored only on this phone. Nothing is sent anywhere."/>
+        <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Your first name" android:inputType="textPersonName"/>
+        <EditText android:id="@+id/etUser" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username (3+ characters)" android:inputType="textNoSuggestions"/>
+        <EditText android:id="@+id/etPass" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password (6+ characters)" android:inputType="textPassword"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="I am…" android:textStyle="bold"/>
+        <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/rbStudent" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="🎓 A student (exams &amp; deadlines)"/>
+            <RadioButton android:id="@+id/rbGrad" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="💼 A graduate looking for a job"/>
+        </RadioGroup>
+        <Button android:id="@+id/btnRegister" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Create account"/>
+    </LinearLayout>
+</ScrollView>
